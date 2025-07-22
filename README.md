@@ -10,11 +10,6 @@ A simple microservice platform for healthcare data using MCP (Microservice Contr
 * **Clinical Guidelines**: Get treatment protocols for common conditions
 
 
-## Sample Screnshorts
-
-![Application Screenshot](assets/main.png)
-
-
 ## Installation
 
 1. Clone the repo:
