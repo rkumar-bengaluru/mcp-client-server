@@ -68,7 +68,7 @@ async def get_patient_info(barcode: str) -> ToolResponse:
     if not barcode or len(barcode) != 11 or not barcode.isdigit():
         return ToolResponse(content="Invalid barcode. Please provide an 11-digit barcode.", error=True)
     try:
-        AUTH_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMSIsImV4cCI6MTc1MzY3OTA3MSwicm9sZSI6IkFkbWluIiwidXNlcklkIjoiNTQ4N2Q0YWEtODBhMC00N2Y4LTlkNDUtOWUxOTA1MGIzMDY4In0.brA7QWbJaLvSVmp5nDsdIk7H_I5rkVq1e-7pubtgxi0'
+        AUTH_TOKEN = 'AROGYA API KEY'
         print(AUTH_TOKEN)
         headers = {"Authorization": f"{AUTH_TOKEN}"}
         async with aiohttp.ClientSession() as session:
